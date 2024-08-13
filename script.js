@@ -1,6 +1,6 @@
 function updateTimer() {
     const startDate = new Date();
-    startDate.setHours(7, 12, 0, 0); // Set to 10:00 AM CET
+    startDate.setHours(7, 12, 0, 0); 
 
     const now = new Date();
     const difference = now - startDate;

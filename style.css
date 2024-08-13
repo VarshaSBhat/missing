@@ -1,0 +1,44 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #f8e2e7, #d1e8f2);
+}
+
+.container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+}
+
+h1 {
+    font-size: 32px;
+    color: #6b5b95;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    color: #333;
+}
+
+.travel-image {
+    width: 100%;
+    max-width: 300px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#timer {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ff6f61;
+    margin-top: 20px;
+}

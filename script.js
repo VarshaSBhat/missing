@@ -12,6 +12,12 @@ function updateTimer() {
 
     document.getElementById('timer').innerHTML = 
         `${days} days, ${hours} hours, ${minutes} minutes, and ${seconds} seconds`;
+    document.getElementById('foundButton').addEventListener('click', function() {
+        window.location.href = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+    });
 }
+
+
+
 
 setInterval(updateTimer, 1000);

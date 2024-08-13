@@ -42,3 +42,23 @@ p {
     color: #ff6f61;
     margin-top: 20px;
 }
+
+.button-container {
+    text-align: center;
+    margin-top: 5px; 
+}
+
+.found-button {
+    background-color: #70e7d7;
+    color: rgb(8, 8, 8);
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.found-button:hover {
+    background-color: #f3becd;
+}

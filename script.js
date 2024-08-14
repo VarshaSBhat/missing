@@ -1,6 +1,6 @@
 function updateTimer() {
     const startDate = new Date();
-    startDate.setHours(7, 12, 0, 0); 
+    startDate.setTime(1723525920000) // 7:12 CEST to unix timestamp
 
     const now = new Date();
     const difference = now - startDate;
@@ -10,9 +10,9 @@ function updateTimer() {
     const hours = Math.floor((difference / (1000 * 60 * 60)) % 24);
     const days = Math.floor(difference / (1000 * 60 * 60 * 24));
 
-    document.getElementById('timer').innerHTML = 
+    document.getElementById('timer').innerHTML =
         `${days} days, ${hours} hours, ${minutes} minutes, and ${seconds} seconds`;
-    document.getElementById('foundButton').addEventListener('click', function() {
+    document.getElementById('foundButton').addEventListener('click', function () {
         window.location.href = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
     });
 }
